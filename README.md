@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="icyshadow5_space_logo_975kb.jpg" alt="IcyShadow5 space logo" width="320">
+  <img src="icyshadow5-space-profile.png" alt="IcyShadow5 Space Engineers profile image" width="720">
 </p>
 
 <h1 align="center">IcyShadow5</h1>
