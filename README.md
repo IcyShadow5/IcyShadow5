@@ -1,59 +1,63 @@
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/Godot-478CBF?style=for-the-badge&logo=godotengine&logoColor=white" />
-  <img src="https://img.shields.io/badge/GDScript-478CBF?style=for-the-badge&logo=godotengine&logoColor=white" />
-</p>
+# Icy Shadow
 
-# Hey, I'm Icy Shadow 👋
+I build software end to end — from low-level engine internals to the web
+apps that sit on top of them. My main project is a Godot/GDScript coding
+assistant trained from scratch: the corpus, the tokenizer, the transformer,
+the training loop, and the Studio web app around it. On the side I write
+desktop tools, game prototypes, and automation.
 
-I build things end to end. Right now that mostly means **training a Godot/GDScript coding assistant from scratch** — the corpus, the model, the training pipeline, and the web app around it. No black boxes: I want to understand every layer of what I'm building, and I'm not afraid to get my hands dirty in the data.
+I like to understand the whole pipeline before I touch any part of it, and
+I prefer building things myself over wiring up black boxes.
 
----
-
-## 🚀 Main project
+## Featured Projects
 
 ### [godot-coder-ai](https://github.com/IcyShadow5/godot-coder-ai)
 
-> Train a compact Godot/GDScript coding assistant from scratch on your own GPU — Godot-verified corpus curation, a local web Studio, and a from-scratch PyTorch transformer.
+Local training studio for a compact Godot/GDScript language model — corpus,
+training, and chat in one pipeline, running entirely on your own GPU.
 
-[![Stars](https://img.shields.io/github/stars/IcyShadow5/godot-coder-ai?style=flat-square)](https://github.com/IcyShadow5/godot-coder-ai)
-[![Docs](https://img.shields.io/badge/docs-live-7c3aed?style=flat-square&logo=readthedocs&logoColor=white)](https://icyshadow5.github.io/godot-coder-ai/)
-[![Python](https://img.shields.io/badge/Python-3.11-blue?style=flat-square&logo=python&logoColor=white)](https://github.com/IcyShadow5/godot-coder-ai)
+- **Stack:** Python · PyTorch · FastAPI · Godot headless · GitHub Actions
+- **The interesting part:** every script in the training corpus is verified
+  by Godot itself — full project import or per-file parse — so the model
+  only learns code that actually parses and runs. The transformer (attention,
+  RoPE, KV-cache) is written from scratch, and the whole thing runs locally
+  at `127.0.0.1:8765`, no cloud, no API keys.
+- **Docs:** [icyshadow5.github.io/godot-coder-ai](https://icyshadow5.github.io/godot-coder-ai/)
 
-What makes it interesting: every script in the training corpus is **verified with Godot itself**, so the model learns from code that actually parses and runs — not from scraped garbage.
+### [IcySW](https://github.com/IcyShadow5/IcySW)
 
-- **Corpus:** curated Godot projects, validated by the real Godot binary
-- **Model:** compact transformer written from scratch in PyTorch (attention, RoPE, KV-cache — the works)
-- **Studio:** local web app for importing, training, and chatting with your model
-- **Docs:** [architecture, config reference, changelog](https://icyshadow5.github.io/godot-coder-ai/)
+Local analysis and optimization tool for Summoners War.
 
----
+- **Purpose:** data processing, recommendation logic, and optimization for
+  the game's rune system, wrapped in a desktop app.
+- **Stack:** TypeScript · React · Tauri · Rust
+- **The interesting part:** a Rust core keeps the data-heavy work close to
+  the metal while React drives the desktop UI.
 
-## 🧰 What I work with
+## Currently Building
+
+- **godot-coder-ai** — next stage is instruction tuning, so the model goes
+  from continuing code to answering prompts
+- **EngineSandbox** — a C++ engine architecture project: engine lifecycle,
+  systems design, and low-level programming concepts
+- **Game development** — [SpaceEX](https://github.com/IcyShadow5/SpaceEX)
+  (modular block construction, pilotable vehicles, survival systems in Godot 4)
+  and [ember-idle](https://github.com/IcyShadow5/ember-idle) (mobile idle game)
+
+## Technology
 
 | Area | Stack |
 |---|---|
-| **Languages** | Python · GDScript · JavaScript · PowerShell |
-| **ML / Training** | PyTorch · Tokenizers · Transformers · custom training loops |
-| **Game dev** | Godot Engine · GDScript |
-| **Tooling** | Git · GitHub Actions · FastAPI · MkDocs · SQLite |
+| **Languages** | Python · GDScript · TypeScript · C++ · Rust · JavaScript · PowerShell |
+| **AI / Machine Learning** | PyTorch · from-scratch transformers · tokenizers · custom training loops |
+| **Game development** | Godot Engine · GDScript |
+| **Systems / Desktop** | Rust · Tauri · C++ engine internals |
+| **Web / Tooling** | React · FastAPI · GitHub Actions · Git · MkDocs · SQLite |
 
----
+## Elsewhere
 
-## 📊 GitHub stats
+- [godot-coder-ai docs](https://icyshadow5.github.io/godot-coder-ai/) —
+  architecture, config reference, changelog
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=IcyShadow5&show_icons=true&theme=transparent&count_private=true&hide_title=true" alt="GitHub stats" height="160" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=IcyShadow5&layout=compact&theme=transparent&hide_title=true" alt="Top languages" height="160" />
-</p>
-
----
-
-## 📫 Find me
-
-- 📦 **godot-coder-ai** — [github.com/IcyShadow5/godot-coder-ai](https://github.com/IcyShadow5/godot-coder-ai)
-- 📖 **Docs** — [icyshadow5.github.io/godot-coder-ai](https://icyshadow5.github.io/godot-coder-ai/)
-- 🐙 **GitHub** — [@IcyShadow5](https://github.com/IcyShadow5)
-
-Always happy to talk about Godot, training small models, or why your dataset deserves more love than your model does.
+Always happy to talk about training small models, engine design, or why your
+dataset deserves more attention than your model does.
