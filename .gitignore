@@ -1,0 +1,23 @@
+# Local drafts & scratch files
+*.tmp
+*.bak
+*.swp
+.drafts/
+scratch/
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local tooling
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
