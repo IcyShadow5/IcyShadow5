@@ -1,25 +1,38 @@
 # Icy Shadow
 
-I'm a hands-on IT generalist focused on Windows systems, PC hardware, troubleshooting, Git/GitHub and practical software projects. My experience comes from many years of building, maintaining and troubleshooting PCs and working on personal projects.
+I'm a hands-on IT generalist focused on Windows systems, PC hardware, troubleshooting, Git/GitHub and practical software projects.
 
-## Practical experience
+I have spent years working with computers, development environments and personal technical projects. I am especially interested in understanding how systems are put together, how different parts interact and why something behaves differently from what was expected.
 
-- **Windows and PC hardware:** PC builds and maintenance, BIOS/UEFI, drivers, software installation and configuration, and day-to-day system upkeep.
-- **Troubleshooting:** breaking complex problems into smaller parts, narrowing down likely causes, and checking whether a change resolves the issue.
-- **Git and GitHub:** repositories, commits, branches, pull/push workflows, releases and project organization.
+## Technical focus
 
-## Programming and technical learning
+- **Windows and PC hardware:** PC builds and upgrades, BIOS/UEFI, drivers, software installation and configuration, system maintenance and troubleshooting.
+- **Troubleshooting and systems:** reproducing problems, narrowing down likely causes, tracing dependencies and checking whether a change actually resolves the issue.
+- **Git and GitHub:** repositories, commits, branches, pull/push workflows, releases, CI and project organization.
+- **Programming and scripting:** practical work with Python, PowerShell and Bash, including small programs, scripts, simple HTTP tools and targeted changes to existing code.
+- **Software projects:** reading relevant code paths, following functions and data flow, working with different toolchains and development environments, and testing changes in real projects.
+- **Broader technical exposure:** web and desktop tooling, Android development environments, game-engine workflows and modding.
 
-I use Python for practical tasks, including small scripts and simple HTTP servers, and can make targeted changes to existing code. With enough time and context, I can work through code, trace functions, dependencies and data flow, and investigate likely failure points.
+## How I work
 
-I'm building deeper skills in programming, software architecture, data handling, persistence and testing through hands-on projects.
+I usually start with a concrete problem, unexpected behavior or an idea that should become usable.
 
-## Featured project: RepoManager
+From there I break the problem down, reproduce it where possible, inspect the relevant state or logs, follow the parts of the system that matter, test changes and verify the result. I am comfortable moving between application behavior, configuration, tooling, code and release workflows when that is what the problem requires.
 
-[RepoManager](https://github.com/IcyShadow5/RepoManager) is a Windows desktop application for organizing, inspecting and opening local Git repositories. It grew out of a practical need to keep track of many local projects, their Git state and how to open them.
+A large part of my practical experience comes from building and iterating on personal projects. That has taught me to look for gaps between intended and actual behavior, understand how components depend on each other and keep working through a problem until the result is reproducible and understandable.
 
-My role covers requirements, intended behavior, technical decisions, troubleshooting, testing, review, documentation and release verification. Implementation is substantially AI-assisted; I work through the resulting system to understand its behavior and check it against the requirements.
+## Selected projects
 
-One example is handling moved repositories: possible matches require user confirmation before project metadata is reassociated.
+### RepoManager
+
+[RepoManager](https://github.com/IcyShadow5/RepoManager) is a Windows desktop application I created to make it easier to discover, organize and inspect a growing number of local Git repositories.
+
+I drove the project from the original idea through development, testing, troubleshooting, documentation and public release. During that work I dealt with issues across repository discovery and scanning, filtering, UI behavior, project and repository state, persistence and recovery, repository association, Windows packaging and release workflows.
+
+The project also gave me practical experience with automated tests, CI, release preparation, technical documentation and debugging across multiple parts of an application.
 
 [Windows release](https://github.com/IcyShadow5/RepoManager/releases/latest) · [Screenshots](https://github.com/IcyShadow5/RepoManager#screenshots) · [Testing and verification](https://github.com/IcyShadow5/RepoManager/blob/main/docs/TESTING.md)
+
+---
+
+More projects will be added here as they are ready for a public release or a useful technical write-up.
