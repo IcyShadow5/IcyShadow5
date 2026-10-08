@@ -1,38 +1,51 @@
 # Icy Shadow
 
-I'm a hands-on IT generalist focused on Windows systems, PC hardware, troubleshooting, Git/GitHub and practical software projects.
+I build software I actually want to use.
 
-I have spent years working with computers, development environments and personal technical projects. I am especially interested in understanding how systems are put together, how different parts interact and why something behaves differently from what was expected.
+I'm an independent developer interested in desktop applications, developer tools, and understanding how systems work under the hood.
 
-## Technical focus
+I spend a lot of time working with Python, Rust, Git, and different development environments. I've also worked with C++, PowerShell, Bash, and web technologies. I don't really stick to one language or framework. If something interests me, I'll usually end up digging into it.
 
-- **Windows and PC hardware:** PC builds and upgrades, BIOS/UEFI, drivers, software installation and configuration, system maintenance and troubleshooting.
-- **Troubleshooting and systems:** reproducing problems, narrowing down likely causes, tracing dependencies and checking whether a change actually resolves the issue.
-- **Git and GitHub:** repositories, commits, branches, pull/push workflows, releases, CI and project organization.
-- **Programming and scripting:** practical work with Python, PowerShell and Bash, including small programs, scripts, simple HTTP tools and targeted changes to existing code.
-- **Software projects:** reading relevant code paths, following functions and data flow, working with different toolchains and development environments, and testing changes in real projects.
-- **Broader technical exposure:** web and desktop tooling, Android development environments, game-engine workflows and modding.
+I started out tinkering with computers, hardware, and Windows systems. That curiosity eventually turned into building my own software.
+
+## What I work with
+
+- **Languages:** Python, Rust, some C++, PowerShell, Bash, and JavaScript
+- **Desktop development:** Qt / QML, Windows applications, packaging, and release workflows
+- **Development tools:** Git, GitHub, CI, testing, debugging, and automation
+- **Systems:** Windows, hardware, development environments, and troubleshooting
+- **Other interests:** Web development, game engines, Android tooling, and experimenting with new technologies
 
 ## How I work
 
-I usually start with a concrete problem, unexpected behavior or an idea that should become usable.
+I tend to start with something I want to improve, a problem I keep running into, or an idea I can't quite leave alone.
 
-From there I break the problem down, reproduce it where possible, inspect the relevant state or logs, follow the parts of the system that matter, test changes and verify the result. I am comfortable moving between application behavior, configuration, tooling, code and release workflows when that is what the problem requires.
+Sometimes that means writing code. Sometimes it's reading through an unfamiliar codebase, tracking down a bug, comparing different approaches, or figuring out why something that should work doesn't.
 
-A large part of my practical experience comes from building and iterating on personal projects. That has taught me to look for gaps between intended and actual behavior, understand how components depend on each other and keep working through a problem until the result is reproducible and understandable.
+I like understanding how the pieces fit together, not just getting something to run once.
 
-## Selected projects
+I'm still learning, and there's plenty I don't know yet. But I've reached the point where some of my ideas have become software I can actually use and share.
+
+## Projects
 
 ### RepoManager
 
-[RepoManager](https://github.com/IcyShadow5/RepoManager) is a Windows desktop application I created to make it easier to discover, organize and inspect a growing number of local Git repositories.
+**My first public software release.**
 
-I drove the project from the original idea through development, testing, troubleshooting, documentation and public release. During that work I dealt with issues across repository discovery and scanning, filtering, UI behavior, project and repository state, persistence and recovery, repository association, Windows packaging and release workflows.
+[RepoManager](https://github.com/IcyShadow5/RepoManager) started as a tool I wanted for myself and grew into my first public software release.
 
-The project also gave me practical experience with automated tests, CI, release preparation, technical documentation and debugging across multiple parts of an application.
+I've worked on everything from the original concept and interface to Git integration, debugging, testing, packaging and releases. Building it has given me hands-on experience across different parts of software development, and I keep improving it as I use it.
 
-[Windows release](https://github.com/IcyShadow5/RepoManager/releases/latest) · [Screenshots](https://github.com/IcyShadow5/RepoManager#screenshots) · [Testing and verification](https://github.com/IcyShadow5/RepoManager/blob/main/docs/TESTING.md)
+I enjoy turning ideas into working software, understanding the systems behind it, and finding better ways to solve problems.
+
+Getting it there meant working through UI issues, repository handling, Git operations, testing, packaging, and release problems. Some parts took a lot more effort than I expected.
+
+It's still evolving, and feedback is welcome.
+
+[**Repository**](https://github.com/IcyShadow5/RepoManager) · [**Windows download**](https://github.com/IcyShadow5/RepoManager/releases/latest) · [**Website**](https://icyshadow5.dev/)
 
 ---
 
-More projects will be added here as they are ready for a public release or a useful technical write-up.
+More projects will appear here as they're ready to share.
+
+**[icyshadow5.dev](https://icyshadow5.dev/) · [GitHub](https://github.com/IcyShadow5)**
