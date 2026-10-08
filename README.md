@@ -1,30 +1,30 @@
 # Icy Shadow
 
-I build software I actually want to use.
+**I build software I actually want to use.**
 
 I'm an independent developer interested in desktop applications, developer tools, and understanding how systems work under the hood.
 
-I spend a lot of time working with Python, Rust, Git, and different development environments. I've also worked with C++, PowerShell, Bash, and web technologies. I don't really stick to one language or framework. If something interests me, I'll usually end up digging into it.
+My background started with PC hardware, Windows, and troubleshooting. Over time, that curiosity grew into building my own software, experimenting with different technologies, and turning ideas into working applications.
 
-I started out tinkering with computers, hardware, and Windows systems. That curiosity eventually turned into building my own software.
+I mainly work with Python, Rust, and Git, but I enjoy exploring different languages, frameworks, and development environments. I like knowing how things fit together, not just how to make them run.
 
 ## What I work with
 
-- **Languages:** Python, Rust, some C++, PowerShell, Bash, and JavaScript
-- **Desktop development:** Qt / QML, Windows applications, packaging, and release workflows
-- **Development tools:** Git, GitHub, CI, testing, debugging, and automation
-- **Systems:** Windows, hardware, development environments, and troubleshooting
-- **Other interests:** Web development, game engines, Android tooling, and experimenting with new technologies
+- **Programming:** Python, Rust, JavaScript, PowerShell, Bash, and some C++
+- **Desktop development:** Qt / QML, Windows applications, packaging, and releases
+- **Development tools:** Git, GitHub, automated testing, CI, debugging, and automation
+- **Systems:** Windows, PC hardware, development environments, and troubleshooting
+- **Other interests:** Web development, game engines, Android tooling, and software architecture
 
 ## How I work
 
-I tend to start with something I want to improve, a problem I keep running into, or an idea I can't quite leave alone.
+Most of my projects start with a problem I want to solve, something I could improve, or an idea worth exploring.
 
-Sometimes that means writing code. Sometimes it's reading through an unfamiliar codebase, tracking down a bug, comparing different approaches, or figuring out why something that should work doesn't.
+I enjoy working through the technical details: understanding existing code, tracing unexpected behavior, debugging issues, testing solutions, and making systems more reliable.
 
-I like understanding how the pieces fit together, not just getting something to run once.
+I care about more than getting an application to run. A useful tool should be understandable, maintainable, and something people can actually work with.
 
-I'm still learning, and there's plenty I don't know yet. But I've reached the point where some of my ideas have become software I can actually use and share.
+There's always more to learn, and that's part of what keeps software development interesting to me.
 
 ## Projects
 
@@ -32,20 +32,20 @@ I'm still learning, and there's plenty I don't know yet. But I've reached the po
 
 **My first public software release.**
 
-[RepoManager](https://github.com/IcyShadow5/RepoManager) started as a tool I wanted for myself and grew into my first public software release.
+[RepoManager](https://github.com/IcyShadow5/RepoManager) is a Windows desktop application for discovering, organizing, and working with local Git repositories.
 
-I've worked on everything from the original concept and interface to Git integration, debugging, testing, packaging and releases. Building it has given me hands-on experience across different parts of software development, and I keep improving it as I use it.
+It started as a tool I needed myself. As my collection of projects grew, I wanted a better way to keep track of repositories, review changes, manage project context, and move between development workflows.
 
-I enjoy turning ideas into working software, understanding the systems behind it, and finding better ways to solve problems.
+I took RepoManager from the initial idea to a public release, working across its interface, Git integration, debugging, testing, packaging, and release process.
 
-Getting it there meant working through UI issues, repository handling, Git operations, testing, packaging, and release problems. Some parts took a lot more effort than I expected.
+It's now a tool I use in my own workflow and continue to improve. Building and shipping it has been an important step in turning my ideas into software that others can use too.
 
-It's still evolving, and feedback is welcome.
+Feedback, bug reports, and suggestions are always welcome.
 
 [**Repository**](https://github.com/IcyShadow5/RepoManager) · [**Windows download**](https://github.com/IcyShadow5/RepoManager/releases/latest) · [**Website**](https://icyshadow5.dev/)
 
 ---
 
-More projects will appear here as they're ready to share.
+I'm also working on other developer tools and systems projects. I'll share more of them as they're ready.
 
-**[icyshadow5.dev](https://icyshadow5.dev/) · [GitHub](https://github.com/IcyShadow5)**
+**[Website](https://icyshadow5.dev/) · [GitHub](https://github.com/IcyShadow5)**
