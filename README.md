@@ -20,6 +20,8 @@ I mainly work with Python, Rust, and Git, but I enjoy exploring different langua
 
 Most of my projects start with a problem I want to solve, something I could improve, or an idea worth exploring.
 
+I work independently and use coding agents for research, design, implementation, debugging, and review. I make the final decisions and take responsibility for what I release.
+
 I enjoy working through the technical details: understanding existing code, tracing unexpected behavior, debugging issues, testing solutions, and making systems more reliable.
 
 I care about more than getting an application to run. A useful tool should be understandable, maintainable, and something people can actually work with.
